@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
             val doubledValue = initialValue * 2
             valToChange.text = doubledValue.toString()
 
-            Snackbar.make(findViewById(R.id.rootLayout), "Changed value $initialValue to $doubledValue", Snackbar.LENGTH_SHORT)
+            Snackbar.make(findViewById(R.id.rootLayout), "Changed value $initialValue to $doubledValue", Snackbar.LENGTH_SHORT).show()
         }
     }
 }
